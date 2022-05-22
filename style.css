@@ -8,7 +8,6 @@ h1{
 
 .half-width{
     width: 40%;
-
     padding: 50px 50px;
     float: left;
 }
@@ -36,4 +35,36 @@ body{
 }
 section{
     height: 700px;
+}
+.second{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiance{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 80px;
+    padding-left: 55px;
+}
+#first-half{
+    box-shadow: 10px 10px 40px gray;
+    background-color: white;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(red,hotpink);
+    border-image-slice: 1;
+    margin-right: 30px;
+}
+#second-half{
+    box-shadow: 10px 10px 40px gray;
+    background-color: white;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
